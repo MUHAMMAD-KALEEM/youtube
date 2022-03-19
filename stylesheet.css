@@ -1,0 +1,162 @@
+body {
+    margin: 0%;
+    overflow: hidden;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.first-container {
+    display: flex;
+    height: auto;
+}
+
+.sidebar {
+    flex: 0.9;
+    height: 100vh;
+}
+
+.mainbody {
+    flex: 5;
+    height: 100%;
+    background-color: rgb(236, 236, 236);
+    overflow: hidden;
+}
+
+.header1 {
+    display: flex;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+}
+
+.header2 {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    border-top: 1px solid rgb(73, 72, 72);
+    border-bottom: 1.5px solid rgb(73, 72, 72);
+}
+
+.header2bottom {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.items {
+    padding: 1.5px;
+    display: flex;
+    border: 1px solid gray;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 62px;
+    height: 25px;
+    background-color: rgb(245, 241, 241);
+    color: rgb(46, 45, 45);
+}
+
+.header2bottom :hover {
+    background-color: rgb(197, 194, 194);
+    color: rgb(46, 45, 45);
+}
+
+.search-container {
+    display: flex;
+    flex: 5;
+    justify-content: center;
+    /* background-color: crimson; */
+    height: 40px;
+}
+
+.search {
+    width: 50%;
+    height: 40px;
+}
+
+.search input:focus {
+    outline: none;
+    border-color: #eee;
+}
+
+.search-icon {
+    width: 60px;
+    background-color: rgb(219, 219, 219);
+    height: 39.8px;
+    margin-top: 1px;
+}
+
+.account-icons {
+    /* background-color: black;
+       flex: 1; */
+    height: 30px;
+    justify-content: flex-end;
+}
+
+.titles-container {
+    height: 87.5vh;
+    /* background-color: darkgreen; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.titles {
+    width: 274px;
+    height: 280px;
+    /* background-color: cadetblue; */
+    /* padding: 10px; */
+    margin: 15px;
+    /* align-items: center; */
+    cursor: pointer;
+}
+
+.hedlef {
+    align-items: center;
+    display: flex;
+    padding: 13px 29px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.content-sidebar {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.hedlef span {
+    margin-left: 19px;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    font-size: 15px;
+}
+
+.hedlef:hover {
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+.footer {
+    cursor: pointer;
+}
+
+.title-size {
+    height: 92px;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.titles-para {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
+}
